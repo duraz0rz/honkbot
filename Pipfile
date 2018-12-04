@@ -5,6 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+rope = "*"
+pep8 = "*"
 
 [packages]
 python-dotenv = ">=0.9.1"
