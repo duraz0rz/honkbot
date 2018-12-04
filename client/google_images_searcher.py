@@ -29,8 +29,8 @@ class GoogleImagesSearcher:
             if len(query) < 150:
                 cx_id = "009855409252983983547:3xrcodch8sc"
                 url = (
-                        f"https://www.googleapis.com/customsearch/v1?q={search}" +
-                        f"&cx={cx_id}&searchType=image" + f"&key={self.google_api}"
+                    f"https://www.googleapis.com/customsearch/v1?q={search}" +
+                    f"&cx={cx_id}&searchType=image" + f"&key={self.google_api}"
                 )
                 r = requests.get(url)
                 try:
